@@ -8,28 +8,30 @@ h1 {
 
 p {    font-family: Arial, Helvetica, sans-serif;
     color: darkblue;
-    background-color: lightgrey;}
+    background-color: lightgrey;} 
 
-.img {
-    background-image: url('./img/img.webp');
-  background-size: cover;        
-  background-repeat: no-repeat;   
-  background-position: center;    
-  padding: 20px;                  
-  color: white;                  
 
-}
 
-.img:hover{
-    width: 100px;
-    height: auto;
-    border-radius: 30%;
-    background-color: lightblue;
-    color:black
+h1:hover{
+    background-color: lightgreen;
+    color: darkblue;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.setimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contenitore {
+  background-image: url(./img/img.png);
+    background-size: cover;
+    display: block;
+    background-position: center;
 }
 
